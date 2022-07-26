@@ -1,0 +1,31 @@
+:root {
+  --fondo-backgrownd: #f8eed3;
+  --color-h1: #a5612a;
+  --color-h2: #f8eed3;
+  --fondo-h2: #a5612a;
+  --color-texto: #a5612a;
+}
+
+body {
+  background-color: var(--fondo-backgrownd);
+  color: var(--color-texto);
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+h1 {
+  color: var(--color-h1);
+  text-align: left;
+  font-family: Verdana;
+  text-transform: capitalize;
+}
+
+h2 {
+  color: var(--color-h2);  
+  font-family: Arial;
+  text-transform: capitalize;
+  background-color: var(--fondo-h2);
+}
+
+.textos {
+  color: var(--color-texto);
+}
